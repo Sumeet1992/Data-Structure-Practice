@@ -7,7 +7,7 @@ public class ReversalAlgoForArrayRotation {
 		
 		int[] arr = {1,2,3,4,5,6,7,8};
 //		number of rotations : 
-		int r = 2;
+		int r = 7;
 		int n = arr.length;
 		
 //		Make 2 parts of array as n-r and r

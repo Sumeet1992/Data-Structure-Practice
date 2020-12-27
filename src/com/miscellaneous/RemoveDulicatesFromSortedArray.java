@@ -5,7 +5,7 @@ public class RemoveDulicatesFromSortedArray {
 //	This uses O(n) extra space
 	public static void usingExtraSpace()
 	{
-		int arr[] = {1,2,2,3,3,3,4,4,5};
+		int arr[] = {1,2,2,3,3,4,4,5};
 		int l = arr.length;
 		int[] temp = new int[l];
 		int j = 0;
@@ -48,7 +48,7 @@ public class RemoveDulicatesFromSortedArray {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		usingExtraSpace();
+		usingExtraSpace();
 		usingConstantSpace();
 	}
 

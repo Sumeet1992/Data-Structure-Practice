@@ -10,7 +10,7 @@ public class BubbleSort {
 //	(i+1)th element in every iteration through the array
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {9,4,7,1,3,2,4,5};
+		int arr[] = {0,1,0,1,1,0,0,1,1};
 		int length = arr.length;
 		int temp;
 		System.out.println("Before Bubble Sort : ");
